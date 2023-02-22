@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #f4f5f8;
+    --color2: #192c53;
+    --color3: #1c3361;
+    --color4: #79859c;
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+header {
+    display: flex;
+    background-color: var(--color1);
+    padding: 20px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+header img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+header img:hover {
+    height: 105px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    color: var(--color2);
+}
+
+nav li:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 2px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+#categorias img {
+    margin: 15px 3px;
+    border-radius: 2.5%;
+}
+
+#categorias img:hover {
+    height: 208px;
+}
+
+
+#produtos {
+    justify-content: center;
+    background-color: var(--color1);
+    width: 100%;
+    display: flex;
+    padding: 2.5%;
+}
+
+.camisas:hover {
+    border: 3px solid var(--color2)
+}
+
+.tituloProdutos {
+    text-align: center;
+    background-color: var(--color1);
+    padding-top: 2.5%;
+    color: var(--color2);
+    font: var(--font1);
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.subtituloProdutos {
+    text-align: center;
+    background-color: var(--color1);
+    padding-top: 0.75%;
+    color: var(--color2);
+    font: var(--font1);
+    font-size: 1.4em;
+    font-weight: 760;
+}
+
+.camisas {
+    margin: 10px;
+    display: inline-block;
+    width: max-content;
+    padding: 10px;
+    width: fit-content;
+}
+
+.camisas img {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 12px;
+    border-radius: 4%;
+}
+
+.produto {
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: lighter;
+    margin-bottom: 6px;
+}
+
+.preco {
+    font-size: 1.1em;
+    font-weight: 900;
+    color: var(--color2);
+    margin-bottom: 13px;
+}
+
+.botao {
+    background-color: var(--color3);
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px 13px;
+}
+
+.botao a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+#sobre {
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.tituloSobre {
+    font-family: var(--font1);
+    font-size: 1.35em;
+    color: var(--color2);
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+#sobre > p {
+    font-weight: 100;
+    font-size: 0.99em;
+    font-style: italic;
+    color: rgb(85, 85, 85);
+}
+
+#beneficiosServicos {
+    background-color: var(--color1);
+    display: inline-flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+footer {
+    background-color: var(--color2);
+    color: var(--color1);
+    display: inline-block
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#links {
+    display: inline-flex;
+}
+
+footer ul {
+    list-style: none;
+    display: block;
+    padding: 30px;
+    padding-right: 150px;
+}
+
+footer li {
+    height: 36px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color4);
+}
+
+footer h2{
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+#apps {
+    text-align: center;
+    height: 150px;
+}
+
+#apps > a {
+    display: inline-flex;
+}
+
+.apple svg {
+    width: 190px;
+    height: 177px;
+}
+
+.playstore svg {
+    width: 190px;
+    height: 170px;
+}
+
+#linksSocial {
+    padding: 6px;
+    text-align: end;
+}
+
+#linksSocial > a {
+    display: inline-flex;
+}
+
+#infosFinais {
+    padding: 20px;
+    color: var(--color4);
+}
+
+#infosFinais p {
+    font-weight: 100;
+    font-size: 0.99em;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#finalFooter {
+    background-color: var(--color4);
+    color: var(--color1);
+    text-align: center;
+}
+
+#finalFooter a {
+    color: var(--color1);
+    text-decoration: solid;
+}
+
